@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['car', 'pickup', 'bus']
+
+roboflow:
+  workspace: jiawengan
+  project: illegal-parking-ltiwv
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jiawengan/illegal-parking-ltiwv/dataset/2

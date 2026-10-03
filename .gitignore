@@ -1,0 +1,26 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.cache
+
+# Training and inference outputs
+runs/
+
+# Local datasets
+train/images/
+train/labels/
+valid/images/
+valid/labels/
+test/images/
+test/labels/
+
+# Local videos and installer artifacts
+*.mp4
+*.whl
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
