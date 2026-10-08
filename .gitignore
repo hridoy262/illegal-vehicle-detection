@@ -6,6 +6,7 @@ __pycache__/
 
 # Training and inference outputs
 runs/
+output/
 
 # Local datasets
 train/images/

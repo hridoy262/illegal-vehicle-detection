@@ -1,13 +1,13 @@
-train: train/images
-val: valid/images
-test: test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: 3
-names: ['car', 'pickup', 'bus']
+nc: 15
+names: ['bicycle', 'bike', 'boat', 'bus', 'car', 'cng', 'easybike', 'horsecart', 'launch', 'leguna', 'rickshaw', 'tractor', 'truck', 'van', 'wheelbarrow']
 
 roboflow:
-  workspace: jiawengan
-  project: illegal-parking-ltiwv
-  version: 2
+  workspace: united-international-university-qbzdi
+  project: vehicle-detection-in-bangladesh
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/jiawengan/illegal-parking-ltiwv/dataset/2
+  url: https://universe.roboflow.com/united-international-university-qbzdi/vehicle-detection-in-bangladesh/dataset/1
